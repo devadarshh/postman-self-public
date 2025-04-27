@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer {
+    .options-style{
+        @apply text-black 
+
+    }
+    .lists-style{
+        @apply hover:underline underline-offset-8 cursor-pointer
+    }
+}

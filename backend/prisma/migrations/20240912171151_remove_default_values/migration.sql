@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Request" ALTER COLUMN "reqHeaders" DROP DEFAULT,
+ALTER COLUMN "reqParams" DROP DEFAULT;
